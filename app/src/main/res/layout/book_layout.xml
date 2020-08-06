@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="34dp">
+
+            <ImageView
+                android:id="@+id/bookImage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/flower2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Designing Across Senses"
+                    android:lineSpacingExtra="5dp"
+                    android:textStyle="bold"
+                    android:textColor="#104E8B"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/subTitle"
+                    android:paddingTop="8dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="3dp"
+                    android:textColor="#104E8B"
+                    android:text="A Multimodal Approach to Product Design"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:paddingTop="8dp"
+                    android:id="@+id/isbn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#104E8B"
+                    android:text="9781617294136"
+                    android:textSize="12dp"/>
+                <TextView
+                    android:paddingTop="8dp"
+                    android:id="@+id/price"
+                    android:textColor="#104E8B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$31.99" />
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
